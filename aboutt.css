@@ -1,0 +1,183 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+   background-color:rgb(12, 53, 106); 
+}
+
+.logo {
+    height: 55px;
+    width: 60px;
+    cursor: pointer;
+}
+
+li, a {
+    font-family: "Roboto Mono", Arial;
+    text-decoration: none;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+
+p {
+    color: white;
+    font-family: "Roboto Mono", Arial;
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+   padding: 5px 12px;
+   background-color: rgb(12, 53, 106);
+}
+
+.navop {
+    list-style: none;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.navop li{
+    align-items:flex-end;
+    display:inline-block;
+    padding: 15px 15px 15px 15px;
+}
+
+.navop li:hover{
+    background-color:rgb(255, 196, 54);
+    border-radius: 12px;
+    transition: 0s;
+}
+
+.navop a:hover {
+    color: black;
+    transition: 0s;
+}
+
+.upper_part {
+    background-image: url(images/philippines.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.ph{
+    opacity: 0;
+    font-family: "Lumanosimo", Arial;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    padding-top: 200px;
+    transition:1s;
+}
+
+.ph:hover{
+    opacity: 0.9;
+    font-family: "Lumanosimo", Arial;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    padding-top: 200px;
+    transition:1s; 
+}
+
+.description {
+ margin: 12px;
+ padding-top: 12px;
+ padding-left: 30px;
+ padding-right: 30px;
+ padding-bottom: 12px;
+ display: inline-block;
+ border-radius: 20px;
+ border: 5px solid rgb(255, 240, 206);
+}
+
+.paraimg{
+    border: 5px solid rgb(255, 240, 206);
+}
+
+.paraimg {
+    width: 330px;
+    display: inline-block;
+    position: relative;
+    border-radius: 20px;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 12px;
+    transition: 1s;
+}
+
+.paraimg:hover {
+    width: 340px;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.paraimg:active {
+    width: 400px;
+    transition: 1s;
+}
+
+.middle_part{
+    background: url(images/flag.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.50%), url(images/flag.gif));
+    height: 500px;
+    margin-top: 360px;
+}
+
+.history{
+    opacity: 0;
+    font-family: "Lumanosimo", Arial;
+    text-align: center;
+    color: rgb(255, 196, 54);
+    padding-top: 200px;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 200px;
+    padding-bottom: 180px;
+    transition:1s;
+}
+
+.history:hover {
+    opacity: 0.9;
+    font-family: "Lumanosimo", Arial;
+    text-align: center;
+    color: rgb(255, 196, 54);
+    font-size: 100px;
+    padding-top: 200px;
+    transition:1s; 
+}
+.presidents{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    border-radius: 20px;
+    margin-left: 50px;
+    border: 5px solid rgb(255, 240, 206);
+    transition: 1s;
+}
+
+.presidents:hover{
+    width: 210px;
+    height: 210px;
+    opacity: 0.5;
+    transition: 1s;  
+}
+
+@media (max-width: 500px){
+
+.ph{
+    font-size: 10px;
+}
+
+}
